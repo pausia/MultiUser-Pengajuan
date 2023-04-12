@@ -51,6 +51,7 @@ class AdminController extends Controller
         $data->save();
         Alert::success('Anda berhasil Menambahkan Pengajuan','Sekarang Pengajuan Anda ada di Tracking Pengajuan');
         return redirect()->back() ;
+        //hmmm
         
     }
 }
